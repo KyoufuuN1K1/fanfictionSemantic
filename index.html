@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FanFiction</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="headerbar" id="top">
+  <div class="ui inverted borderless top container menu" style="background-color: #333399">
+    <a class="borderless item" href="http://www.fanfiction.net">FanFiction | unleash your imagination</a>
+    <a class="item"><i class="inverted mobile alternate icon"></i></a>
+    <a class="item"><i class="inverted font icon"></i></a>
+    <a class="right item"><i class="inverted lock icon"></i>Login</a>
+    <div class="fitted text item">|</div>
+    <a class="item">Sign Up</a>
+  </div>
+</div>
+<div class="lowermenu">
+  <div class="ui borderless container menu" style="background-color: transparent">
+    <div class="ui simple dropdown item" style="background-color: transparent">
+      <div class="text">Browse</div>
+      <i class="dropdown icon"></i>
+      <div class="menu">
+        <p class="disabled item">Stories</p>
+        <a class="item">Anime/Manga</a>
+        <a class="item"> Books</a>
+        <a class="item">Cartoons</a>
+        <a class="item">Comics</a>
+        <a class="item">Games</a>
+        <a class="item">Misc</a>
+        <a class="item">Movies</a>
+        <a class="item">Plays</a>
+        <a class="item">TV</a>
+        <p class="disabled item">Crossovers</p>
+        <a class="item">Anime/Manga</a>
+        <a class="item"> Books</a>
+        <a class="item">Cartoons</a>
+        <a class="item">Comics</a>
+        <a class="item">Games</a>
+        <a class="item">Misc</a>
+        <a class="item">Movies</a>
+        <a class="item">Plays</a>
+        <a class="item">TV</a>
+      </div>
+    </div>
+    <div class="ui simple dropdown item" style="background-color: transparent">
+      <div class="text">Just In</div>
+      <i class="dropdown icon"></i>
+      <div class="menu">
+        <a class="item">All</a>
+        <a class="item">Stories: New</a>
+        <a class="item">Stories: Updated</a>
+        <hr>
+        <a class="item">Crossovers: News</a>
+        <a class="item">Crossovers: Updated</a>
+      </div>
+    </div>
+    <div class="ui simple dropdown item" style="background-color: transparent">
+      <div class="text">Community</div>
+      <i class="dropdown icon"></i>
+      <div class="menu">
+        <a class="item">General</a>
+        <a class="item">Anime/Manga</a>
+        <a class="item"> Books</a>
+        <a class="item">Cartoons</a>
+        <a class="item">Comics</a>
+        <a class="item">Games</a>
+        <a class="item">Misc</a>
+        <a class="item">Movies</a>
+        <a class="item">Plays</a>
+        <a class="item">TV</a>
+      </div>
+    </div>
+    <div class="ui simple dropdown item" style="background-color: transparent">
+      <div class="text">Forums</div>
+      <i class="dropdown icon"></i>
+      <div class="menu">
+        <a class="item">General</a>
+        <a class="item">Anime/Manga</a>
+        <a class="item"> Books</a>
+        <a class="item">Cartoons</a>
+        <a class="item">Comics</a>
+        <a class="item">Games</a>
+        <a class="item">Misc</a>
+        <a class="item">Movies</a>
+        <a class="item">Plays</a>
+        <a class="item">TV</a>
+      </div>
+    </div>
+    <div class="right ui selection dropdown item" style="background-color: transparent">
+      <div class="text">Story</div>
+      <i class="dropdown icon"></i>
+      <div class="menu">
+        <a class="item">Story</a>
+        <a class="item">Writer</a>
+        <a class="item">Forum</a>
+        <a class="item">Community</a>
+      </div>
+    </div>
+    <div class="ui fitted search item">
+      <input class="prompt" type="text" placeholder="Search...">
+      <div class="results"></div>
+    </div>
+    <script>$('.ui.dropdown')
+        .dropdown()
+    ;
+    </script>
+
+  </div>
+
+</div>
+<div class="middle">
+  <div class="ui container">
+    <div class="ui segment">
+      <div class="ui top attached label"><i class="book icon"></i>Fanfiction</div>
+      <div class="ui grid">
+        <div class="five column row">
+          <div class="column"><a href="https://www.fanfiction.net/anime/">Anime/Manga</a></div>
+          <div class="column"><a href="https://www.fanfiction.net/book/">Books</a></div>
+          <div class="column"><a href="https://www.fanfiction.net/cartoon/">Cartoons</a></div>
+          <div class="column"><a href="https://www.fanfiction.net/comic/">Comics</a></div>
+          <div class="column"><a href="https://www.fanfiction.net/game/">Games</a></div>
+        </div>
+        <div class="five column row">
+          <div class="column"><a href="https://www.fanfiction.net/misc/">Misc</a></div>
+          <div class="column"><a href="https://www.fanfiction.net/movie/">Movies</a></div>
+          <div class="column"><a href="https://www.fanfiction.net/play/">Plays</a></div>
+          <div class="column"><a href="https://www.fanfiction.net/tv/">TV</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ui container" style="margin-top: 10px">
+    <div class="ui segment">
+      <div class="ui top attached label"><i class="shuffle icon"></i>Crossovers</div>
+      <div class="ui grid">
+        <div class="five column row">
+          <div class="column"><a>Anime/Manga</a></div>
+          <div class="column"><a>Books</a></div>
+          <div class="column"><a>Cartoons</a></div>
+          <div class="column"><a>Comics</a></div>
+          <div class="column"><a>Games</a></div>
+        </div>
+        <div class="five column row">
+          <div class="column"><a>Misc</a></div>
+          <div class="column"><a>Movies</a></div>
+          <div class="column"><a>Plays</a></div>
+          <div class="column"><a>TV</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <div class="ui centered grid">
+  <div class="ui bottom menu">
+    <a class="item">Help</a>
+    <a class="item">Cookies</a>
+    <a class="item">Privacy</a>
+    <a class="item">Terms of Service</a>
+    <a class="item" href="#top">Top</a>
+
+  </div>
+  </div>
+</div>
+</body>
+</html>
